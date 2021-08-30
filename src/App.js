@@ -7,7 +7,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route path="/" />
-        <Router path="/search" />
+        <Route path="/search" />
       </Switch>
     </BrowserRouter>
   );
