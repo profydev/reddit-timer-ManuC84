@@ -10,8 +10,8 @@ function App() {
       <GlobalStyle />
       <Header />
       <Switch>
-        <Route path="/search">Home</Route>
-        <Route path="/">Search</Route>
+        <Route path="/search">Search</Route>
+        <Route path="/">Home</Route>
       </Switch>
     </Router>
   );
