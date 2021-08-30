@@ -1,6 +1,6 @@
-import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import "normalize.css";
+import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import 'normalize.css';
 
 function App() {
   return (
