@@ -18,9 +18,9 @@ const GlobalStyles = createGlobalStyle`
     cursor: default;
 
   }
- 
   a {
     text-decoration: none;
+    color:#636363;
   }
   li{
     list-style: none;
