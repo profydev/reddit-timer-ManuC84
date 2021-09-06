@@ -10,7 +10,7 @@ function App() {
       <GlobalStyles />
       <Header />
       <Switch>
-        <Route path="/search/javascript">
+        <Route path="/search">
           <h1>search page</h1>
         </Route>
         <Route path="/">
