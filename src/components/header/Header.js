@@ -7,12 +7,12 @@ function Header() {
   return (
     <Container>
       <Link to={{ pathname: '/' }}>
-        <Logo src="/img/logo.png" />
+        <Logo />
       </Link>
       <NavBar>
-        <NavLink href="/search?=javascript">Search</NavLink>
-        <NavLink href="#how-it-works">How it works</NavLink>
-        <NavLink href="#about">About</NavLink>
+        <NavLink to={{ pathname: '/search/javascript' }}>Search</NavLink>
+        <NavLink to={{ pathname: '/#how-it-works' }}>How it works</NavLink>
+        <NavLink to={{ pathname: '/#about' }}>About</NavLink>
       </NavBar>
     </Container>
   );
