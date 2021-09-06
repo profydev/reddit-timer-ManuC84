@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link as UnstyledLink } from 'react-router-dom';
 import { ReactComponent as ImportedLogo } from '../../img/logo.svg';
 
-const Container = styled.div`
+const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
